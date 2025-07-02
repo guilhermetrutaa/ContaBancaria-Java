@@ -23,17 +23,15 @@ Para executar este projeto na sua máquina, siga os passos abaixo:
 
 1.  **Clone o Repositório** (ou baixe os arquivos diretamente):
     ```bash
-    git clone 
-    cd nome-do-seu-repositorio
+    git clone https://github.com/guilhermetrutaa/ContaBancaria-Java.git
+    cd ContaBancaria-Java
     ```
-    *Lembre-se de substituir `SEU_USUARIO` pelo seu usuário do GitHub e `nome-do-seu-repositorio` pelo nome que você deu ao seu repositório.*
 
 2.  **Compile o Código**:
-    Abra seu terminal/prompt de comando na pasta raiz do projeto (`nome-do-seu-repositorio`) e compile os arquivos Java. Assumindo que você tem as classes `Main.java` e `ContaBancaria.java` no mesmo nível:
+    Abra seu terminal/prompt de comando na pasta raiz do projeto (`ContaBancaria-Java`) e compile os arquivos Java. Assumindo que você tem as classes `Main.java` e `ContaBancaria.java` no mesmo nível:
     ```bash
     javac Main.java ContaBancaria.java
     ```
-    *Se você uniu tudo em um único arquivo `Main.java`, apenas `javac Main.java` será suficiente.*
 
 3.  **Execute a Aplicação**:
     Após a compilação, execute o programa no mesmo terminal:
@@ -65,19 +63,6 @@ Ao desenvolver este projeto, tive a oportunidade de aplicar e reforçar vários 
 * Controle do fluxo do programa com **estruturas condicionais** (`if/else`, `switch`) e **laços de repetição** (`do-while`).
 * **Validação de entrada** do usuário e **tratamento de erros** para tornar o programa mais robusto.
 * A importância do **encapsulamento** em POO, protegendo os dados internos de um objeto.
-
----
-
-## 📈 Próximos Passos (Ideias para Melhorias Futuras)
-
-Este projeto é um excelente ponto de partida! Há muitas maneiras de expandi-lo e torná-lo ainda mais complexo e funcional. Algumas ideias incluem:
-
-* Adicionar um **ID único** para cada conta para facilitar a identificação.
-* Implementar a **exclusão de contas**.
-* Criar uma funcionalidade para gerar um **extrato detalhado** da conta.
-* Adicionar a capacidade de **transferir dinheiro** entre contas.
-* **Persistência de Dados**: Salvar e carregar os dados das contas em um arquivo (como um arquivo de texto ou CSV) para que não sejam perdidos ao fechar o programa.
-* Desenvolver uma **interface gráfica do usuário (GUI)** para uma experiência mais amigável.
 
 ---
 
